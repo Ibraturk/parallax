@@ -1,0 +1,37 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  
+   
+}
+.card {
+    margin-top: 100px;
+    width: 500px;
+    height: 500px; 
+    border: 8px solid white;
+    border-radius: 8px;
+
+
+}
+.container{
+    position: absolute;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(#E0CB0F,#858BBA);
+}
+.container #scene .layer{
+    position: absolute;
+    width: 500px;
+    height: 500px; 
+}
+.container #scene .layer img {
+    position: absolute;
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    
+      
+}
